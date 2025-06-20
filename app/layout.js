@@ -1,8 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Racing+Sans+One&display=swap');
-</style>
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

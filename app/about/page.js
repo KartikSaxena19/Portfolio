@@ -66,7 +66,7 @@ const About = () => {
     
     <div>
       <p className='txt font-medium text-base md:text-lg'>
-        Hi, I'm Kartik Saxena, a Computer Science undergraduate at I.E.T. Lucknow, passionate about turning data into insights and ideas into interactive experiences. My academic journey in B.Tech has fueled my dual interest in Data Science and Web Development - where I enjoy both extracting meaningful patterns from complex datasets and crafting intuitive digital interfaces.
+        Hi, I&apos;m Kartik Saxena, a Computer Science undergraduate at I.E.T. Lucknow, passionate about turning data into insights and ideas into interactive experiences. My academic journey in B.Tech has fueled my dual interest in Data Science and Web Development - where I enjoy both extracting meaningful patterns from complex datasets and crafting intuitive digital interfaces.
       </p>
     </div>
 

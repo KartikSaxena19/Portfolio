@@ -1,9 +1,9 @@
 'use client'
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState,useMemo } from 'react';
 import Image from 'next/image';
 const ProjectLoader = () => {
-  const languages = ['english', 'hindi', 'urdu'];
+  const languages = useMemo(() => ['english', 'hindi', 'urdu'], []);
   const [currentLanguage, setCurrentLanguage] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -36,7 +36,7 @@ const ProjectLoader = () => {
       clearInterval(languageInterval);
       clearTimeout(timeout);
     };
-  }, []);
+  }, [languages.length]);
 
   if (!isLoading) return null;
 
