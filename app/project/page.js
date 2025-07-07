@@ -51,7 +51,7 @@ const Project = () => {
                 My Projects
             </div>
 
-            <div className='flex flex-col md:flex-row justify-around items-center gap-8 my-8 p-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-around items-center gap-8 my-8 p-4'>
       {/* Project 1 */}
       <div className="relative w-full max-w-lg h-auto overflow-hidden rounded-lg shadow-xl group">
         <Image 
@@ -76,6 +76,30 @@ const Project = () => {
       </div>
 
       {/* Project 2 */}
+      <div className="relative w-full max-w-lg h-auto overflow-hidden rounded-lg shadow-xl group">
+        <Image 
+          alt='pass' 
+          src='/vehiql.png' 
+          width={530}
+          height={100}
+          className="object-cover transition-all duration-300 group-hover:scale-110"
+        />
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/70 flex flex-col items-center justify-center p-4 text-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          <h3 className="text-3xl font-bold txt text-white mb-2">Car Manager</h3>
+          <p className="text-white txt mb-4 max-w-md">
+            Tech Stack: Next.js, Tailwind CSS, Supabase, Arcjet. Developed a secure and scalable Car App with dual interfaces for Admin and Normal Users, leveraging modern web technologies for performance and security.
+          </p>
+          <Link href={'https://github.com/KartikSaxena19/Vehiql'}>
+          <button className="px-6 py-2 bg-white text-black rounded-lg txt hover:bg-gray-200 transition">
+            View Code
+          </button>
+          </Link>
+        </div>
+      </div>
+
+
+      {/* Project 3 */}
       <div className="relative w-full max-w-lg h-auto overflow-hidden rounded-lg shadow-xl group">
         <Image 
           alt='pass' 

@@ -4,7 +4,6 @@ import UpperHead from "./components/UpperHead";
 import LowerHead from "./components/LowerHead";
 
 
-
 export default function Home() {
   
   return (

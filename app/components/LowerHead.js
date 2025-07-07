@@ -4,6 +4,7 @@ import React from 'react'
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import toast, { Toaster } from 'react-hot-toast';
 
 const LowerHead = () => {
     const [result, setResult] = useState("");
@@ -22,13 +23,14 @@ const LowerHead = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
+      toast.success('Message sent successfully')
       event.target.reset();
     } else {
-      console.log("Error", data);
+      toast.error("Error while sending the message")
       setResult(data.message);
     }
   };
+
   return (
     <>
     
@@ -82,6 +84,8 @@ const LowerHead = () => {
                 >
                   Send message
                 </button>
+
+                <Toaster/>
               </form>
             </div>
           </div>
