@@ -41,7 +41,7 @@ const LowerHead = () => {
       
       <section className="relative z-10">
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-          <div className="bg-white bg-opacity-80 backdrop-blur-lg rounded-xl shadow-2xl p-8 transform scale-x-[-1]">
+          <div className="bg-white/40 bg-opacity-80 backdrop-blur-lg rounded-xl shadow-2xl p-8 transform scale-x-[-1]">
             <div className="transform scale-x-[-1]"> {/* Mirror effect container */}
               <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900">Contact Us</h2>
               <form onSubmit={onSubmit} className="space-y-8">
@@ -74,7 +74,7 @@ const LowerHead = () => {
                     id="message" 
                     rows="6" 
                     name='message'
-                    className="block hover:shadow-lg p-2.5 w-full text-sm text-gray-900 bg-white rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" 
+                    className="bg-white/40 block hover:shadow-lg p-2.5 w-full text-sm text-gray-900 bg-white rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" 
                     placeholder="Leave a comment..."
                   ></textarea>
                 </div>

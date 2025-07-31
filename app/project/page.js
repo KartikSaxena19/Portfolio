@@ -111,6 +111,33 @@ const Project = () => {
           {/* Project 3 */}
           <div className="relative w-full max-w-lg h-auto overflow-hidden rounded-lg shadow-xl group">
             <Image
+              alt="reflct"
+              src="/reflct.png"
+              width={530}
+              height={100}
+              className="object-cover transition-all duration-300 group-hover:scale-110"
+            />
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-black/70 flex flex-col items-center justify-center p-4 text-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+              <h3 className="text-3xl font-bold txt text-white mb-2">
+                Reflct
+              </h3>
+              <p className="text-white txt mb-4 max-w-md">
+                It is a mood-based blog app built with Next.js, Tailwind, Prisma, Neon, and Arcjet, where users create collections, track emotions with graphs, and auto-generate mood images via the Pinterest API.
+
+              </p>
+              <Link href={"https://github.com/KartikSaxena19/Reflct"}>
+                <button className="px-6 py-2 bg-white text-black rounded-lg txt hover:bg-gray-200 transition">
+                  View Code
+                </button>
+              </Link>
+            </div>
+          </div>
+
+
+          {/* Project 4 */}
+          <div className="relative w-full max-w-lg h-auto overflow-hidden rounded-lg shadow-xl group">
+            <Image
               alt="donation"
               src="/donation.png"
               width={530}
@@ -134,7 +161,7 @@ const Project = () => {
             </div>
           </div>
 
-          {/* Project 4 */}
+          {/* Project 5 */}
           <div className="relative w-full max-w-lg h-auto overflow-hidden rounded-lg shadow-xl group">
             <Image
               alt="pass"
