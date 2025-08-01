@@ -65,7 +65,7 @@ const Project = () => {
             {/* Overlay */}
             <div className="absolute inset-0 bg-black/70 flex flex-col items-center justify-center p-4 text-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
               <h3 className="text-3xl font-bold txt text-white mb-2">
-                Car Manager
+                Vehiql
               </h3>
               <p className="text-white txt mb-4 max-w-md">
                 Tech Stack: Next.js, Tailwind CSS, Supabase, Arcjet. Developed a
