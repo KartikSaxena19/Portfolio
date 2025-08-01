@@ -1,4 +1,3 @@
-// app/layout.js
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ClientWrapper from "./components/ClientWrapper";
@@ -15,11 +14,15 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Kartik Saxena",
+  description: "Portfolio of Kartik Saxena"
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <title>Kartik Saxena</title>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
