@@ -73,7 +73,7 @@ const About = () => {
     <div className="logo flex justify-center lg:justify-start gap-4 md:gap-8 lg:gap-10">
       {[
         { href: 'https://www.instagram.com/kartik.19__/', src: '/ig.png', color: 'hover:bg-pink-300' },
-        { href: 'https://linkedin.com/in/kartik-saxena-2098b4270', src: '/linkedin.png', color: 'hover:bg-blue-300' },
+        { href: 'https://www.linkedin.com/in/kartik-saxena-3622333b9', src: '/linkedin.png', color: 'hover:bg-blue-300' },
         { href: 'mailto:saxenaaashu74@gmail.com', src: '/mail.png', color: 'hover:bg-emerald-200' },
         { href: 'https://github.com/KartikSaxena19', src: '/github.png', color: 'hover:bg-fuchsia-300' }
       ].map((item, index) => (
